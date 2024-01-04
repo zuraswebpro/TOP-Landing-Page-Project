@@ -1,0 +1,33 @@
+.container {
+  background-color: #1f2937;
+  display: flex;
+  color: #f9faf8;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: end;
+  gap: 3px;
+}
+.logo-push-left {
+  margin-right: auto;
+  padding-left: 5px;
+}
+div > a {
+  margin-right: 5px;
+  color: lightgray;
+}
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  border: 1px solid red;
+  color: #f9faf8;
+}
+.hero-box {
+  border: 1px solid green;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-img {
+  border: 1px solid purple;
+  flex: 1;
+}
