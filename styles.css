@@ -2,32 +2,68 @@
   background-color: #1f2937;
   display: flex;
   color: #f9faf8;
-  /* border: 1px solid red; */
   align-items: center;
   justify-content: end;
   gap: 3px;
+
 }
 .logo-push-left {
   margin-right: auto;
-  padding-left: 5px;
+  padding-left: 80px;
 }
-div > a {
-  margin-right: 5px;
+.links {
+
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  margin-right: 190px;
+  gap: 10px;
+}
+ div > a {
   color: lightgray;
-}
+  flex: 1;
+ }
+
 .hero {
   background-color: #1f2937;
   display: flex;
-  border: 1px solid red;
   color: #f9faf8;
+  flex: 1;
 }
 .hero-box {
-  border: 1px solid green;
+  display: flex;
   flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
+}
+.hero-text {
+  flex: 1;
+  text-align: left;
+  width: 50%;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+img {
+  flex: 1;
+  width: 300px;
+  height: 200px;
+
+}
+.signup-btn {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  height: 2rem;
+  width: 5rem;
 }
 .hero-img {
-  border: 1px solid purple;
-  flex: 1;
+  width: 50%;
+  justify-content: center;
+  align-self: center;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.random-info {
+  display: flex;
 }
