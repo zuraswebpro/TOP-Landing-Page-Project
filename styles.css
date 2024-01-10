@@ -1,69 +1,107 @@
 .container {
-  background-color: #1f2937;
   display: flex;
-  color: #f9faf8;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: end;
-  gap: 3px;
-
-}
-.logo-push-left {
-  margin-right: auto;
-  padding-left: 80px;
-}
-.links {
-
-  display: flex;
-  flex: 1;
-  justify-content: end;
-  margin-right: 190px;
-  gap: 10px;
-}
- div > a {
-  color: lightgray;
-  flex: 1;
- }
-
-.hero {
   background-color: #1f2937;
-  display: flex;
+}
+.header-logo {
+  border: 1px solid blue;
+  margin-right: auto;
+  margin-left: 100px;
   color: #f9faf8;
-  flex: 1;
+  font-size: 24px;
 }
-.hero-box {
+.header-links {
   display: flex;
-  flex: 1;
-  text-align: center;
+  margin-right: 100px;
+  color: #f9faf8;
+  gap: 10px;
+  font-size: 18px;
 }
-.hero-text {
-  flex: 1;
-  text-align: left;
-  width: 50%;
-  margin-left: 80px;
-  margin-top: 50px;
+a {
+  color: #f9faf8;
+}
+.container2 {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+  background-color: #1f2937;
+  color: whitesmoke;
+}
+.hero-section {
+  width: 30%;
+  margin-left: 100px;
   margin-bottom: 30px;
 }
-img {
-  flex: 1;
-  width: 300px;
+h2 {
+  font-size: 40px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+.hero--img {
+  width: 500px;
   height: 200px;
-
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .signup-btn {
-  background-color: blue;
-  border-radius: 10px;
-  color: white;
-  height: 2rem;
-  width: 5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
 }
-.hero-img {
-  width: 50%;
-  justify-content: center;
-  align-self: center;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+p {
+  font-size: 18px;
 }
-.random-info {
+.container3 {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+#container-title {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.container4 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.info-div {
+  width: 200px;
+  height: 200px;
+}
+.info-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 3px solid blue;
+  margin-bottom: 10px;
+}
+.container5 {
+  margin-top: 60px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  outline: dashed greenyellow;
+  padding: 150px;
+}
+.quote-block {
+  outline: dashed red;
+  text-align: center;
+  padding: 30px 10px;
+}
+#quote-text > p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
